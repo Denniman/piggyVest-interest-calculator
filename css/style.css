@@ -114,6 +114,10 @@ a:hover {
     text-decoration: none;
 }
 
+.footer-copy {
+    font-size: 0.8rem;
+}
+
 @media only screen and (max-width: 468px) {
     .logo-img {
         /* width: 20%; */
