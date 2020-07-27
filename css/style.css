@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fbfbfb;
+}
+
+header {
+    background-color: #fff;
+}
+
+.active {
+    padding: 0px 20px;
+    border: 1px solid #073f9d;
+    border-radius: 5px;
+}
+
+.active:hover {
+    background-color: #073f9d;
+}
+
+.active-nav:hover {
+    color: #fff !important;
+}
+
+ul li a.nav-link {
+    color: #073f9d !important; 
+}
+
+.logo-img {
+    width: 30%;
+}
+
+img {
+    width: 100%;
+}
+
+h2, h3, .estimate-p{
+    color: #073f9d;
+}
+
+[type="text"], 
+.form-control-lg {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    color: #4a5568;
+    height: 58px;
+    background-color: #edf2f7;
+}
+
+.btn {
+    padding: 10px 25px;
+    background: #30c57b;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #edf2f7;
+    color: #073f9d;
+    border: 1px solid #073f9d;
+}
+
+p.feature-p {
+    font-size: 1.4rem;
+}
+
+.safelock-feature {
+    margin-top: 3em;
+}
+
+.other-p {
+    font-size: 1.2rem;
+}
+
+.btn-account {
+    background-color: #073f9d;
+}
+
+img.app_store_badges {
+    width: 13%;
+}
+
+footer {
+    height: 50vh;
+    background: rgba(0, 136, 204, 0.04);
+}
+
+.footer-logo {
+    width: 20%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.logo-icon {
+    width: 30%;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+a.a-links {
+    font-size: 0.8rem;
+    color: #6e7683;
+}
+
+@media only screen and (max-width: 468px) {
+    .logo-img {
+        /* width: 20%; */
+        display: none;
+    }
+
+   .estimate-head {
+       text-align: center;
+       font-size: 1.5rem;
+   }
+
+   p.feature-p {
+       text-align: center;
+   }
+
+   .button-div {
+       text-align: center;
+   }
+
+   img.app_store_badges {
+    width: 30%;
+}
+
+   footer {
+    height: 105vh;
+}
+
+   .logo-icon {
+    width: 20%;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+.footer-div-logo {
+    text-align: center;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+}
