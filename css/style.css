@@ -104,7 +104,14 @@ h5 {
 }
 a.a-links {
     font-size: 0.8rem;
-    color: #6e7683;
+}
+
+a {
+    color: #6e7683;   
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 468px) {
